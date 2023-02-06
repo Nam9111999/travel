@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website Landing Page Design</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="style.css" /></head>
+<body>
+    <section class="header">
+        <a href="#" class="logo">Travel</a>
+        <div class="toggle"><img src="toggle.png" alt="hamburger"></div>
+    </section>
+    <section class="banner">
+        <img src="gif.gif" alt="background" class="fitBg">
+        <div class="content " id="title">
+            <h2>Explore The World</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, blanditiis rerum. Dolore modi cumque reprehenderit impedit pariatur quaerat, molestias corrupti eaque illo provident quis quae laborum cum autem debitis quo?</p>
+            <a href="#about" class="btn">Learn more</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="contentBx scrollText">
+            <h2 class="titleText ">Feel The Beauty Of The World</h2>
+            <p class="text ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam cum doloribus praesentium numquam rem, quia voluptatem, possimus ad error autem dicta ab pariatur dolore consectetur quis corrupti! Saepe, labore ex!
+            </p>
+            <a href="#destination " class="btn">Popular Destination</a>
+        </div>
+        <div class="imgBx">
+            <img src="img1.jpg" alt="img1" class="fitBg">
+            <div class="hoverBg fitBg"></div>
+            <div class="video--btn">
+                <div class="play">
+
+                </div>
+                <p>Play Video</p>
+            </div>
+        </div>
+    </section>
+    <section class="destination" id="destination">
+
+        <div class="app">
+            <div class="cardList">
+                <button class="cardList__btn btn btn--left">
+                    <div class="icon" style="background: #fff;">
+                        <svg>
+                            <use xlink:href="#arrow-left"></use>
+                        </svg>
+                        <img src="backw.png" alt="">
+                    </div>
+                </button>
+
+                <div class="cards__wrapper">
+                    <div class="card current--card">
+                        <div class="card__image">
+                            <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="card next--card">
+                        <div class="card__image">
+                            <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <button class="cardList__btn btn btn--right">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-right"></use>
+                        </svg>
+                        <img src="nextw.png" alt="">
+                    </div>
+                </button>
+            </div>
+
+            <div class="infoList">
+                <div class="info__wrapper">
+                    <div class="info current--info">
+                        <h1 class="text name">Highlands</h1>
+                        <h4 class="text location">Scotland</h4>
+                        <p class="text description">The mountains are calling</p>
+                    </div>
+
+                    <div class="info next--info">
+                        <h1 class="text name">Machu Pichu</h1>
+                        <h4 class="text location">Peru</h4>
+                        <p class="text description">Adventure is never far away</p>
+                    </div>
+
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="app__bg">
+                <div class="app__bg__image current--image">
+                    <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+                </div>
+                <div class="app__bg__image next--image">
+                    <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="loading__wrapper">
+            <div class="loader--text">Loading...</div>
+            <div class="loader">
+                <span></span>
+            </div>
+        </div>
+
+
+        <svg class="icons" style="display: none;">
+            <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                <polyline points='328 112 184 256 328 400'
+                          style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+            <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                <polyline points='184 112 328 256 184 400'
+                          style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+        </svg>
+
+    </section>
+    
+    <section class="group">
+        <h2>Hotel</h2>
+        <div class="item container" style="background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60)">
+                <div class="overlay">
+                    <div class = "items"></div>
+                    <div class = "items head">
+                      <p>Flower Embroidery Hoop Art</p>
+                      <hr>
+                    </div>
+                    <div class = "items price">
+                      <p class="old">$699</p>
+                      <p class="new">$345</p>
+                    </div>
+                    <div class="items cart">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span>ADD TO CART</span>
+                  </div>
+            </div>
+        </div>
+        <div class="item container" style="background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60)">
+                <div class="overlay">
+                    <div class = "items"></div>
+                    <div class = "items head">
+                      <p>Flower Embroidery Hoop Art</p>
+                      <hr>
+                    </div>
+                    <div class = "items price">
+                      <p class="old">$699</p>
+                      <p class="new">$345</p>
+                    </div>
+                    <div class="items cart">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span>ADD TO CART</span>
+                  </div>
+            </div>
+        </div>
+        <div class="item container" style="background-image: url(https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60)">
+                <div class="overlay">
+                    <div class = "items"></div>
+                    <div class = "items head">
+                      <p>Flower Embroidery Hoop Art</p>
+                      <hr>
+                    </div>
+                    <div class = "items price">
+                      <p class="old">$699</p>
+                      <p class="new">$345</p>
+                    </div>
+                    <div class="items cart">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span>ADD TO CART</span>
+                  </div>
+            </div>
+        </div>
+        <div class="item container" style="background-image: url(https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)">
+                <div class="overlay">
+                    <div class = "items"></div>
+                    <div class = "items head">
+                      <p>Flower Embroidery Hoop Art</p>
+                      <hr>
+                    </div>
+                    <div class = "items price">
+                      <p class="old">$699</p>
+                      <p class="new">$345</p>
+                    </div>
+                    <div class="items cart">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span>ADD TO CART</span>
+                  </div>
+            </div>
+        </div>
+        <div class="item container" style="background-image: url(https://images.unsplash.com/photo-1543357530-d91dab30fa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)">
+                <div class="overlay">
+                    <div class = "items"></div>
+                    <div class = "items head">
+                      <p>Flower Embroidery Hoop Art</p>
+                      <hr>
+                    </div>
+                    <div class = "items price">
+                      <p class="old">$699</p>
+                      <p class="new">$345</p>
+                    </div>
+                    <div class="items cart">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span>ADD TO CART</span>
+                  </div>
+            </div>
+        </div>
+      </section>
+
+      <div class="hotel wrapper">
+        <h2 class="hotel--title">Food</h2>
+        <button class="arrow prev"><i class="ri-arrow-left-s-line"></i></button>
+        <button class="arrow next"><i class="ri-arrow-right-s-line"></i></button>
+        <div class="card-wrapper">
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="card-info">
+                    <a href="#" class="card-title">Cooked dish on gray bowl</a>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, beatae?</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="card-info">
+                    <a href="#" class="card-title">Cooked dish on gray bowl</a>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, beatae?</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="card-info">
+                    <a href="#" class="card-title">Cooked dish on gray bowl</a>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, beatae?</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="card-info">
+                    <a href="#" class="card-title">Cooked dish on gray bowl</a>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, beatae?</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="card-info">
+                    <a href="#" class="card-title">Cooked dish on gray bowl</a>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, beatae?</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="card-info">
+                    <a href="#" class="card-title">Cooked dish on gray bowl</a>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, beatae?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="pricing-table">
+        <div class="card-price">
+          <h6 class="type">basic</h6>
+          <div class="price-table"><span>$</span>20</div>
+          <h5 class="plan">plan</h5>
+          <ul class="details">
+            <li>FREE Stickers</li>
+            <li>FREE Delivery</li>
+            <li>24/7 support</li>
+          </ul>
+          <div class="buy-button">
+            <h3 class="btn">subscribe</h3>
+          </div>
+        </div>
+      
+        <div class="card-price">
+          <h6 class="type">Awesome</h6>
+          <div class="price-table"><span>$</span>50</div>
+          <h5 class="plan">plan</h5>
+          <ul class="details">
+            <li>FREE Stickers</li>
+            <li>FREE Delivery</li>
+            <li>24/7 support</li>
+          </ul>
+          <div class="buy-button">
+            <h3 class="btn">subscribe</h3>
+          </div>
+        </div>
+      
+        <div class="card-price">
+          <h6 class="type">premium</h6>
+          <div class="price-table"><span>$</span>100</div>
+          <h5 class="plan">plan</h5>
+          <ul class="details">
+            <li>FREE Stickers</li>
+            <li>FREE Delivery</li>
+            <li>24/7 support</li>
+          </ul>
+          <div class="buy-button">
+            <h3 class="btn">subscribe</h3>
+          </div>
+        </div>
+      
+      </section>
+
+    <section class="banner2">
+        <img src="img2.jpeg" alt="img2" class="fitBg">
+    </section>
+
+    <section class="footer">
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+        </ul>
+        <h4 class="copyrightText">Copyright 2023 <a href="#">Nam Nguyen</a></h4>
+    </section>
+
+
+    <script src="https://unpkg.com/split-type"></script>
+    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
